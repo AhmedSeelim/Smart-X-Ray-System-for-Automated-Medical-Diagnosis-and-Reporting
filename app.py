@@ -8,11 +8,11 @@ from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 
 # Import classifier functions
-from AbdominalTraumaDetection import AbdominalTraumaDetection
-from KidneyDiseasesClassification import KidneyDiseasesClassification
-from ChestXRay import ChestXRay
-from BoneFractures import BoneFractures
-from Knee_Osteoporosis import Knee_Osteoporosis
+from models.AbdominalTraumaDetection import AbdominalTraumaDetection
+from models.KidneyDiseasesClassification import KidneyDiseasesClassification
+from models.ChestXRay import ChestXRay
+from models.BoneFractures import BoneFractures
+from models.Knee_Osteoporosis import Knee_Osteoporosis
 
 def infer_abdominal_trauma(image_path):
     model_path = r"D:\torch\cnn_proj\models\model\efficientnet_b0_Abdominal_Trauma_Detection.pth"
