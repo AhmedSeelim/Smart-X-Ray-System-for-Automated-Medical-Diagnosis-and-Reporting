@@ -1,6 +1,6 @@
 import os
 if "GOOGLE_API_KEY" not in os.environ:
-    os.environ["GOOGLE_API_KEY"] = "AIzaSyD5wDuk2saq90X2Tdvmby9bQ-XKtZwYm-U"
+    os.environ["GOOGLE_API_KEY"] = "API_KEY"
 import  google.generativeai as geni
 import streamlit as st
 from langchain_google_genai import ChatGoogleGenerativeAI
